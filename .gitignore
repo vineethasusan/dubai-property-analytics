@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+data/raw/*.csv
+outputs/*.joblib
+outputs/price_index.csv
+.DS_Store

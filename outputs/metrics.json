@@ -1,0 +1,44 @@
+{
+  "data": {
+    "rows_in": 60000,
+    "after_sales_residential_filter": 60000,
+    "after_quality_filters": 59342,
+    "source": "sample (DLD schema)",
+    "rent_source": "sample (DLD schema)",
+    "rent_contracts": 40000,
+    "date_range": [
+      "2024-01-01",
+      "2026-06-29"
+    ]
+  },
+  "valuation_backtest": {
+    "test_period": [
+      "2026-04-01",
+      "2026-06-29"
+    ],
+    "test_transactions": 5846,
+    "median_ape": 0.0696,
+    "mape": 0.0808,
+    "within_10pct": 0.674,
+    "within_20pct": 0.955,
+    "baseline_median_ape": 0.0979,
+    "baseline_within_10pct": 0.508,
+    "p10_p90_coverage": 0.747
+  },
+  "market": {
+    "transactions_12m": 23826,
+    "value_12m_aed_bn": 58.8,
+    "median_ppsm_12m": 16290,
+    "yoy_median_ppsm": 0.083,
+    "off_plan_share_12m": 0.393
+  },
+  "example_valuation": {
+    "value_p10": 1338000.0,
+    "value_p50": 1546000.0,
+    "value_p90": 1842000.0,
+    "price_per_sqm_p50": 20618,
+    "verdict": "Above fair range: overpriced, negotiate",
+    "asking_vs_fair_pct": 26.1
+  },
+  "runtime_s": 22
+}

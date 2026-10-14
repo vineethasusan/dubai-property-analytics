@@ -1,0 +1,19 @@
+[project]
+name = "dubai-property-analytics"
+version = "1.0.0"
+description = "Dubai residential market analytics, automated valuation and rental yields on DLD open data"
+authors = [{ name = "Vineetha Susan Alexander" }]
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+# essential checks: syntax errors and undefined names
+select = ["E9", "F63", "F7", "F82"]
